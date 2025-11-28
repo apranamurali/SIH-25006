@@ -1,67 +1,111 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:28-11-2025
+## Register Number:212223220008
+## Name:APARNA.M
 ## Problem Title
-SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
+SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
-### Background
+  A majority of small and marginal farmers in India rely on traditional knowledge, local shopkeepers, or guesswork for crop selection, pest control, and fertilizer use. They lack access to personalized, real-time advisory services that account for soil type, weather conditions, and crop history. This often leads to poor yield, excessive input costs, and environmental degradation due to overuse of chemicals. Language barriers, low digital literacy, and absence of localized tools further limit their access to modern agri-tech resources.
 
-Biosecurity is a cornerstone of animal health management, particularly in the pig and poultry sectors, where disease outbreaks such as Avian Influenza and African Swine Fever can cause significant economic losses, threaten food security, and disrupt rural livelihoods. Despite its importance, many farmers—especially smallholders in resource-limited areas—struggle to access practical, actionable information on biosecurity protocols, risk assessment tools, and regulatory compliance requirements.
+Impact / Why this problem needs to be solved
 
-### Problem Description
+Helping small farmers make informed decisions can significantly increase productivity, reduce costs, and improve livelihoods. It also contributes to sustainable farming practices, food security, and environmental conservation. A smart advisory solution can empower farmers with scientific insights in their native language and reduce dependency on unreliable third-party advice.
 
-There is an urgent need for a user-friendly, digital platform that empowers farmers to implement, monitor, and sustain robust biosecurity practices on their farms. This portal should offer end-to-end solutions for farm-level biosecurity management by integrating:
+Expected Outcomes
 
-• Customizable risk assessment tools based on local epidemiological conditions.
-• Interactive training modules and best practice guidelines tailored for pig and poultry production systems.
-• Compliance tracking features aligned with regulatory frameworks to help farmers work toward disease-free compartment recognition.
-• Real-time alerts and monitoring dashboards for disease outbreaks and biosecurity breaches.
-• Multilingual and mobile-first design to ensure accessibility in remote and rural areas.
+• A multilingual, AI-based mobile app or chatbot that provides real-time, location-specific crop advisory. • Soil health recommendations and fertilizer guidance. • Weather-based alerts and predictive insights. • Pest/disease detection via image uploads. • Market price tracking. • Voice support for low-literate users. • Feedback and usage data collection for continuous improvement.
 
-The platform should also enable data collection and analysis for policy support, foster collaborative networking among stakeholders (farmers, veterinarians, extension workers, etc.), and promote long-term resilience and sustainability in the livestock sector.
+Relevant Stakeholders / Beneficiaries
 
-### Expected Outcomes
+• Small and marginal farmers • Agricultural extension officers • Government agriculture departments • NGOs and cooperatives • Agri-tech startups
 
-• Enhanced farmer awareness and education on biosecurity.
-• Improved risk management at the farm level as well as self-assessment.
-• Easy access to customized biosecurity protocols and guidelines.
-• Digital record-keeping and compliance tracking.
-• Timely alerts and disease notifications to farmers.
-• Healthier livestock and increased farm productivity.
-• Empowerment of small and marginal farmers with limited resources.
-• Support to authorities in data-driven surveillance and policy making.
-• Stronger collaboration across the livestock ecosystem.
-• Improved national preparedness for zoonotic and transboundary diseases.
+Supporting Data
 
+• 86% of Indian farmers are small or marginal (NABARD Report, 2022). • Studies show ICT-based advisories can increase crop yield by 20–30%.
 ## Problem Creater's Organization
-Ministry of Fisheries, Animal Husbandry & Dairying
+Government of Punjab
 
 ## Theme
-Department of Animal Husbandry & Dairying (DoAH&D)
+Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+DETAILED EXPLANATION OF THE PROPOSED SOLUTION
+
+1.The app will have an AI assistant.It will connect farmers from all over India and even other countries.This app will available in many languages.
+
+2.Farmers can choose the crops they want to grow by selecting the images of the crops.They can upload photos to the app for disease and pest detection.
+
+3.This app will also tell farmers what fertilizers they need and give advice about soil health.
+
+4.It will provide real-time weather updates and market prices.
+
+5.To check the soil type,farmers will install a sensor which will be super affordable.The sensor will mneasure the soil's temperature,moisture,pH,nutrients and more,and send these data to the app.
+
+6.Farmers can ask questions to the AI assistant by speaking in their own language.They can also interact with other farmers as group discussions.If the farmers who they interact with speaks other language,the app will translate messages.
+
+7.When the farmer selects a crop,the app will auto generate the steps when to sow,fertilize, or water the crops.It will send these messages through voice like notifications.Its like a remainder.
+
+8.This app is mainly for farmers,but agricultural officers,local agritech startups,NGOs and government groups can also use it.
+
+HOW IT ADDRESSES THE PROBLEM
+
+The app helps farmers by giving easy advice in their language using AI.It spots crop diseases early and suggestes the right idea with the help of sensors.Farmers get weather and price updates to plan better.This makes farming easier and more successful.
+
+INNOVATION AND UNIQUENESS OF THE SOLUTION
+
+1.Installation of sensor.
+2.Pest and disease detection through images.
+3.Communicating with other farmers and translating it.
+5.Remainders through voice notification.
+4.Knowing the market prices.
+
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+
+TECHNOLOGIES TO BE USED
+
+1.Python for AI and backend development
+2.Java for Android and Swift for iPhone,Flutter for both
+3.TensorFlow for AI to check plant health
+4.OpenCV to understand the image
+5.Firebase to store data
+
+![alt text](<Green GUIDE.png>)
+![alt text](<Flow chart.png>)
+
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+FEASIBILITY
+
+1.It combines affordable technologies like sensors,images with higher accessibility(multi lingual support and voice assistant)
+
+2.This app offers complete value not by just identifying problems,but also by giving real time informations and market prices and automated crop care.
+
+CHALLENGES AND RISKS
+
+1.The features of the app may not work due to poor internet in remote areas.
+2.It's difficult for the AI to  understand the language especially local languages and farming words used by the farmers.
+3.If photos are inaccurate or the if the AI cannot able to understand the assignment it may be lead to crop loss.
+ 
+STRATEGIES TO OVERCOME THE CHALLENGES
+
+1.Making the app to work offline by processing the data given initially.
+2.We can give an in-built filter for clearer images
+3.For language barrier,we can implement  multi-steps where the farmer's voice is converted to text,then the text is translated and given to AI.
+
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+IMPACTS 
+
+1.The main impact is increase in income through early and accurate detection of disease.
+2.They gain more knowledge through this.
+
+BENEFITS 
+
+1.Some of the soil pollutions will be controlled through proper use of fertilizers.
+2.The yield will be toxic-free and there will be higher yields.
+3.There will be higher income for the farmers.
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+App details reference https://agrevolution.in/solution-for-farmers/
+About Agriculture https://www.accessagriculture.org/
